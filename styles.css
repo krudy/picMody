@@ -1,0 +1,17 @@
+body {
+    display: flex;
+}
+
+.image, 
+.range-bars {
+    width: 40%;
+    padding: 20px;
+    font-family: arial;
+    font-size: 2rem;
+}
+
+.bar {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+}

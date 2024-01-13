@@ -20,4 +20,9 @@ const updatesFilters = () => {
     bar.addEventListener('input', updatesFilters);
 })
 
+document.querySelector('.btn-scroller').addEventListener('click', () => {
+    document.
+        querySelector('.second-section').
+        scrollIntoView({ behavior: 'smooth' });
+})
 
